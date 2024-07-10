@@ -1,0 +1,73 @@
+/* Container for the login section */
+.loginSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+
+  }
+  
+  /* Main container inside the login section */
+  .container {
+    width: 100%;
+    max-width: 500px; /* Max width for the login form */
+    padding: 20px;
+    background-color: #fff; /* White background for the form */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Login form container */
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Heading style */
+  .login h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Darker text color */
+  }
+  
+  /* Input fields style */
+  .login input[type="text"],
+  .login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px;
+  }
+  
+  /* Button style */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2; /* Facebook blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .btn:hover {
+    background-color: #165fc4; /* Darker blue on hover */
+  }
+  
+  /* Sign up link style */
+  .login a {
+    margin-top: 15px;
+    color: #1877f2; /* Facebook blue color */
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .login a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
